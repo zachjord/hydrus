@@ -209,7 +209,7 @@ def GenerateNumPyImage( path, mime, force_pil = False, human_file_description = 
             HydrusData.ShowText( 'Loading with OpenCV' )
             
         
-        if mime in ( HC.IMAGE_JPEG, HC.IMAGE_TIFF ):
+        if mime in ( HC.IMAGE_JPEG, HC.IMAGE_JXL, HC.IMAGE_TIFF ):
             
             flags = CV_IMREAD_FLAGS_JPEG
             
