@@ -675,6 +675,7 @@ headers_and_mime = [
     ( ( ( [8], [b'WEBP'] ), ), HC.UNDETERMINED_WEBP ),
     ( ( ( [0], [b'II*\x00', b'MM\x00*'] ), ), HC.IMAGE_TIFF ),
     ( ( ( [0], [b'BM'] ), ), HC.IMAGE_BMP ),
+    ( ( ( [0], [b'\xff\x0a'] ), ), HC.IMAGE_JXL ),
     ( ( ( [0], [b'\x00\x00\x01\x00', b'\x00\x00\x02\x00'] ), ), HC.IMAGE_ICON ),
     ( ( ( [0], [b'qoif'] ), ), HC.IMAGE_QOI ),
     ( ( ( [0], [b'CWS', b'FWS', b'ZWS'] ), ), HC.APPLICATION_FLASH ),
